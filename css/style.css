@@ -111,6 +111,12 @@ section {
     user-select: none;
 }
 
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        margin: 1.5em 0 2rem 0;
+    }
+}
+
 #header .description {
     font-size: 2.5rem;
     margin: 0 3rem;
@@ -130,9 +136,19 @@ section {
     user-select: none;
 }
 
+@media only screen and (max-width: 600px) {
+    section {
+        padding-bottom: 4em;
+    }
+
+    section h2 {
+        margin-top: 1.5em !important;
+    }
+}
+
 section h2 {
     text-align: center;
-    margin: 2em 2em 0.75em 2em;
+    margin: 2em auto 0.75em auto;
 }
 
 section img {
