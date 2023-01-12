@@ -224,7 +224,6 @@ section .gallery a img {
 }
 
 section:nth-child(even) {
-    /* background-color: #D2DEE7; */
     background-color: #E9EFF3;
 }
 
@@ -234,7 +233,7 @@ section:nth-child(odd) {
 
 .second-section-special-background {
     padding-top: 7em;
-    background: linear-gradient(rgba(8, 79, 123, 0.55) 0%, #F4F7F9 12%);
+    background: linear-gradient(rgba(8, 79, 123, 0.55) -.25%, #F4F7F9 12%);
 }
 
 #contact .links {
@@ -305,15 +304,13 @@ ol {
 }
 
 .o-nav__item .active {
-    background-color: black;
+    background-color: #467B9C;
     color: #fff;
 }
 
 .o-nav__item .joinus {
-    background-color: black;
+    background-color: #084f7b;
     color: white;
-    /* min-width: 150px; */
-    /* border: 1px solid transparent; */
 }
 
 .o-nav__link {
@@ -335,14 +332,14 @@ ol {
 
 .o-nav__link:hover,
 .o-nav__link--active {
-    background-color: black;
-    color: #fff;
+    background-color: #c2d3de;
+    color: #084f7b;
     text-decoration: none;
 }
 
 .joinus:hover {
-    color: #000;
-    background-color: #dcdcdc;
+    color: #084f7b;
+    background-color: #c2d3de;
 }
 
 footer {
