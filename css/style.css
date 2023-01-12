@@ -80,7 +80,7 @@ section {
     flex-grow: 1;
     margin: 0px;
     background-size: cover !important;
-    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url('../img/header.png') center center;
+    background: linear-gradient(rgba(210, 222, 231, .3) 0%, rgba(8, 79, 123, 0.55) 59%), url('../img/header.png') center center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ section {
 #header .links {
     margin-top: .25rem;
     margin-bottom: auto;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 5px 5px 10px #000;
     font-size: 2.25em;
 }
 
@@ -156,7 +156,7 @@ section {
 
 #header .links a:hover,
 #header .links span:hover {
-    color: rgba(102, 102, 102, 0.65);
+    color: rgba(233, 239, 243, 0.65);
     border: none;
 }
 
@@ -224,7 +224,17 @@ section .gallery a img {
 }
 
 section:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.05);
+    /* background-color: #D2DEE7; */
+    background-color: #E9EFF3;
+}
+
+section:nth-child(odd) {
+    background-color: #F4F7F9;
+}
+
+.second-section-special-background {
+    padding-top: 7em;
+    background: linear-gradient(rgba(8, 79, 123, 0.55) 0%, #F4F7F9 12%);
 }
 
 #contact .links {
@@ -241,7 +251,7 @@ section:nth-child(even) {
 }
 
 #contact .links a:hover {
-    color: grey;
+    color: #AFB0B0;
 }
 
 ul,
