@@ -324,7 +324,7 @@ section dl {
 
 ul,
 ol {
-    margin-left: 2rem;
+    margin: none;
 }
 
 .o-header {
@@ -393,10 +393,6 @@ ol {
     display: block;
     color: black;
     transition: 0.2s ease background-color, 0.2s ease color;
-}
-
-.dark .o-nav__link {
-    color: #fff !important;
 }
 
 .o-nav__link:hover,
