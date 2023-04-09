@@ -24,6 +24,9 @@ body {
     font-family: sans-serif;
 }
 
+/**
+* Headings
+*/
 h1 {
     font-size: 4.5em;
     margin: 0 0 2rem 0;
@@ -48,6 +51,9 @@ h4 {
     font-family: 'Oswald', sans-serif;
 }
 
+/**
+* Texts
+*/
 p {
     font-size: 1.25rem;
 }
@@ -70,11 +76,18 @@ p a:hover {
     border-bottom: 1px solid grey;
 }
 
+/**
+* Sections
+*/
 section {
     min-height: 35vh;
     padding-bottom: 7em;
 }
 
+
+/**
+* Sections - Header
+*/
 #header {
     height: 100vh;
     flex-grow: 1;
@@ -178,6 +191,7 @@ section {
         margin-top: 1.5em !important;
     }
 }
+/* end of header */
 
 section h2 {
     text-align: center;
