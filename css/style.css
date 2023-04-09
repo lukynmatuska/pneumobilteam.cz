@@ -262,6 +262,7 @@ section#about {
 /**
 * Sections - Cars
 */
+/* Newest */
 section#newest-cars img.preview {
     min-height: 150px;
     height: 15vh;
@@ -283,6 +284,18 @@ section#newest-cars h3 {
 
 section#newest-cars dl {
     margin-top: 2em;
+}
+/* End of newest */
+
+section.car img.preview {
+    height: 100%;
+    max-height: 720px;
+    width: 100%;
+    max-width: 777px;
+    margin: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 section dl {
