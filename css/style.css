@@ -245,6 +245,13 @@ section:nth-child(odd) {
     background: linear-gradient(rgba(8, 79, 123, 0.55) -.25%, #F4F7F9 12%);
 }
 
+section dl {
+    display: grid;
+    grid-template-columns: 75% auto;
+    max-width: fit-content;
+    margin: auto;
+}
+
 #contact .links {
     font-size: 4em;
     text-align: center;
