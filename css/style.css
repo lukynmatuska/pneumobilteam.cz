@@ -288,6 +288,18 @@ section#about {
 * Sections - Cars
 */
 /* Newest */
+section#newest-cars {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5vh 25vw;
+}
+
+@media only screen and (max-width: 1111px) {
+    section#newest-cars {
+        grid-template-columns: 100%;
+    }
+}
+
 section#newest-cars img.preview {
     min-height: 150px;
     height: 15vh;
@@ -307,8 +319,27 @@ section#newest-cars h3 {
     font-size: 2.5em;
 }
 
+section#newest-cars dd {
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+}
+
 section#newest-cars dl {
     margin-top: 2em;
+}
+
+section#newest-cars dt {
+    font-weight: 700;
+}
+
+section#newest-cars div.engine {
+    margin: auto;
+    text-align: center;
+}
+
+section#newest-cars ul {
+    display: inline-block;
+    list-style-type: none;
 }
 /* End of newest */
 
