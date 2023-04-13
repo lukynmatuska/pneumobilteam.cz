@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Artifakt Element';
+    src: url('../fonts/ArtifaktElement-Regular.woff.ttf') format('truetype');
 }
 
 html {
@@ -40,38 +40,35 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Artifakt Element', sans-serif;
 }
 
 /**
 * Headings
 */
+
+h1, h2, h3, h4 {
+    font-family: 'Artifakt Element', sans-serif;
+    font-weight: 600;
+}
+
 h1 {
     font-size: 4.5em;
     margin: 0 0 2rem 0;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
 }
 
 h2 {
     font-size: 4.5em;
     margin-top: 1rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
 }
 
 h3 {
     font-size: 4rem;
     margin-top: 0.5rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
 }
 
 h4 {
     font-size: 2.5rem;
-    margin-top: 0.5rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
 }
 
 /**
