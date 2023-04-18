@@ -247,6 +247,11 @@ section .gallery {
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
+section .gallery-single {
+    display: grid;
+    grid-template-columns: 100% !important;
+}
+
 #car-gallery {
     grid-template-columns: 50% 50%;
 }
@@ -255,6 +260,7 @@ section .gallery a {
     justify-self: stretch;
     border: 0px;
     margin: 5px;
+    transition: transform .2s;
 }
 
 section .gallery img {
@@ -265,6 +271,11 @@ section .gallery img {
     max-height: 256px;
     max-width: 256px;
     object-fit: cover;
+}
+
+/* Nice hover for gallery images */
+section .gallery a:hover {
+    transform: scale(1.25);
 }
 
 section .gallery a img {
