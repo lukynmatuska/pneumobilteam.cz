@@ -214,6 +214,7 @@ section {
         margin-top: 1.5em !important;
     }
 }
+
 /* end of header */
 
 /* Generic sections */
@@ -257,6 +258,14 @@ section .gallery-single {
     grid-template-columns: 50% 50%;
 }
 
+@media screen and (max-width: 600px) {
+    section .gallery {
+        max-width: 75vw;
+        margin: auto;
+        grid-template-columns: 100% !important;
+    }
+}
+
 section .gallery a {
     justify-self: stretch;
     border: 0px;
@@ -295,6 +304,7 @@ section#about {
     padding-top: 7em;
     background: linear-gradient(rgb(8, 79, 123) -5%, #F4F7F9 15%);
 }
+
 /* End of generic sections */
 
 /**
@@ -307,25 +317,42 @@ section#newest-cars {
     padding: 5vh 25vw;
 }
 
-@media only screen and (max-width: 1111px) {
+@media only screen and (max-width: 1200px) {
+    section#newest-cars {
+        padding: 5vh 15vw;
+    }
+}
+
+@media only screen and (max-width: 850px) {
     section#newest-cars {
         grid-template-columns: 100%;
+        padding: 5vh 15vw;
     }
 }
 
 section#newest-cars img.preview {
-    min-height: 150px;
-    height: 15vh;
-    max-height: 500px;
+    min-height: 128px;
+    height: 25vh;
+    max-height: 512px;
 
 
-    min-width: 150px;
-    width: 20vw;
-    max-width: 250px;
-    
+    min-width: 128px;
+    width: 100%;
+    max-width: 33vw;
+
     margin: auto;
     border-radius: 5px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+    section#newest-cars img.preview {
+        height: 100%;
+        max-height: 33vh;
+
+        width: 100%;
+        max-width: 75vw;
+    }
 }
 
 section#newest-cars h3 {
@@ -354,6 +381,7 @@ div.engine ul {
     display: inline-block;
     list-style-type: none;
 }
+
 /* End of newest */
 
 section#custom-header h1 {
@@ -493,6 +521,7 @@ ol {
         margin: 0 .5rem;
     }
 }
+
 /* End of navigation menu */
 
 footer {
@@ -517,6 +546,13 @@ footer {
     color: #333;
     line-height: 1.4;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .lead {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
 }
 
 .container {
