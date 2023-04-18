@@ -216,6 +216,7 @@ section {
 }
 /* end of header */
 
+/* Generic sections */
 section h2 {
     text-align: center;
     margin: 2em auto 0.75em auto;
@@ -294,6 +295,7 @@ section#about {
     padding-top: 7em;
     background: linear-gradient(rgb(8, 79, 123) -5%, #F4F7F9 15%);
 }
+/* End of generic sections */
 
 /**
 * Sections - Cars
@@ -389,6 +391,7 @@ section dl {
     color: #AFB0B0;
 }
 
+/* Navigation menu */
 ul,
 ol {
     margin: none;
@@ -484,6 +487,7 @@ ol {
         margin: 0 .5rem;
     }
 }
+/* End of navigation menu */
 
 footer {
     text-align: center;
