@@ -400,6 +400,7 @@ ol {
     width: 100%;
     background-color: #fff;
     margin: 0;
+    z-index: 100;
 }
 
 .o-nav {
@@ -407,21 +408,6 @@ ol {
     max-width: 50vw;
     padding: 1rem;
     margin: 0 auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .o-nav {
-        padding: .25rem;
-        max-width: 500px;
-    }
-
-    .o-nav__list {
-        justify-content: flex-start !important;
-    }
-
-    .o-nav__item {
-        width: initial !important;
-    }
 }
 
 .o-nav__list {
@@ -472,6 +458,31 @@ ol {
 .joinus:hover {
     color: #084f7b;
     background-color: #c2d3de;
+}
+
+@media only screen and (max-width: 600px) {
+    .o-nav {
+        padding: .25rem;
+        max-width: 500px;
+    }
+
+    .o-nav__list {
+        justify-content: space-between !important;
+    }
+
+    .o-nav__item {
+        width: initial !important;
+        margin: 0px;
+        flex-grow: 1;
+    }
+
+    .o-nav__item span {
+        display: none;
+    }
+
+    .o-nav__item:last-child {
+        margin: 0 .5rem;
+    }
 }
 
 footer {
