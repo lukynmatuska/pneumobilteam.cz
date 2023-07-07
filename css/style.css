@@ -228,6 +228,7 @@ section div h2 {
 }
 
 section h3 {
+    font-size: 2em;
     text-align: center;
     margin: 2em auto 0.75em auto;
 }
@@ -355,19 +356,18 @@ section#newest-cars img.preview {
     }
 }
 
+section.car h3,
 section#newest-cars h3 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
+section.car dd,
 section#newest-cars dd {
     margin-bottom: 0.5rem;
     margin-left: 0;
 }
 
-section#newest-cars dl {
-    margin-top: 2em;
-}
-
+section.car dt,
 section#newest-cars dt {
     font-weight: 700;
 }
@@ -406,6 +406,7 @@ section dl {
     grid-template-columns: 75% auto;
     max-width: fit-content;
     margin: auto;
+    margin-top: 2em;
 }
 
 #contact .links {
